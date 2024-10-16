@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #product{
+            display: flex;
+            justify-content: center;
+        }
+        #product #art div{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        #product #art1 img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+        }
+        #product #art2 div{
+            width: 400px;
+            height: 480px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        #product #art2 img {
+            width: 400px;
+            height: 480px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="product">
+        <article id="art1">
+            <div>
+                <img onmouseenter="change1();" src="https://cdn.pixabay.com/photo/2012/12/17/19/14/keyboard-70506_1280.jpg" alt="">
+            </div>
+            <div>
+                <img onmouseenter ="change2();" src="https://cdn.pixabay.com/photo/2013/07/12/17/41/computer-mouse-152249_1280.png" alt="">
+            </div>
+            <div> <img onmouseenter="change3();" src="https://cdn.pixabay.com/photo/2016/03/27/07/12/apple-1282241_1280.jpg" alt=""></div>
+            <div>
+                <img onmouseenter="change4();" src="https://media.istockphoto.com/id/1210738055/photo/computer-education-training-class.jpg?s=1024x1024&w=is&k=20&c=0dtEYyUo_-a89454hEKvq2tOKfjUHiyysSaFDowKcPg=" alt="">
+            </div>
+        </article>
+        <article class="art2">
+            <div>
+                <img id="largeimg" src="https://cdn.pixabay.com/photo/2012/12/17/19/14/keyboard-70506_1280.jpg" alt="">
+            </div>
+        </article>
+    </section>
+    <script src="./productpage9.js"></script>
+</body>
+</html>

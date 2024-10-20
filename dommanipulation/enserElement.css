@@ -1,0 +1,12 @@
+#box{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background-color: black;
+    align-items: center;
+     
+
+}

@@ -42,3 +42,24 @@ body{
     background-color: #191913;
     color: white;
 }
+#new-btn{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #191913;
+    color: white;
+
+}
+
+#msg{
+    font-size: 5vmin;
+    color: #ffffc7;
+}
+
+.msg-con{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}

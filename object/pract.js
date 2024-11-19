@@ -14,3 +14,4 @@ let obj = [
 ];
 console.log(obj[0].mobno);
 console.log(obj[1].name[0]);
+

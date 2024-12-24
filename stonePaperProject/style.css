@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice{
+    height: 220px;
+    width: 220px;
+    /* background-color: #1962b6; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+    gap: 30px;
+    text-align: center;
+}
+.massage-container{
+    text-align: center;
+    margin-top: 60px;
+}
+#msg{
+    font-size: 35px;
+    background-color: #081b31;
+    color: #fff;
+    padding: 10px;
+    display: inline;
+    border-radius:10px ;
+}
+
